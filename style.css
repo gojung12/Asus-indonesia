@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eceded;
+    overflow-x: hidden;
+}
+
+nav{
+    background-color: white;
+}
+nav .container-navbar .navbar-upper{
+    display: flex;
+    justify-content: center;
+    border-bottom:0.5px solid rgb(205, 205, 205);
+}
+nav .container-navbar .navbar-upper .ul-upper {
+display: flex;
+}
+
+nav .container-navbar .navbar-upper .ul-upper .li-upper{
+display: flex;
+list-style-type: none;
+justify-content: center;  
+text-align: center;  
+padding: 12px;
+margin-bottom: -7px;
+}
+
+
+nav .container-navbar .navbar-bottom{
+    display: flex;
+    justify-content: center;
+    border-bottom:0.5px solid rgb(205, 205, 205);
+}
+
+nav .container-navbar .navbar-bottom .ul-bottom{
+    display: flex;
+}
+
+
+nav .container-navbar .navbar-bottom .ul-bottom .li-bottom{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;  
+    text-align: center;  
+    padding: 12px;
+    margin-bottom: -7px;
+    font-size: small;
+    margin-bottom: -10px;
+}
+
+nav .container-navbar .content-navbar {
+    display: flex;
+    justify-content: center;
+    border-bottom:0.5px solid rgb(205, 205, 205);
+}
+
+nav .container-navbar .content-navbar .ul-content{
+    display: flex;
+    text-align: center;
+}
+
+nav .container-navbar .content-navbar .ul-content .li-content{
+    display: flex;
+    list-style-type: none;
+    justify-content: center;  
+    text-align:center ;  
+    padding-inline-start: 100px;
+    font-size: small;
+    margin-bottom: -10px;
+}
+
+.content-container{
+    border: 1px solid rgb(191, 191, 191);
+    max-width: fit-content;
+    border-radius: 12px;
+    margin-top: 100px;
+    margin-left: 240px;
+    background-color: white;
+    position: absolute;
+}
+
+.content-container .taskbar .ul-taskbar{
+display: flex;
+flex-direction: column;
+
+}
+
+.content-container .taskbar .ul-taskbar .li-taskbar{
+    list-style-type: none;
+    padding: 10px;
+    justify-content: center;
+    margin: 10px;
+    margin-right: 100px;
+    color: rgb(83, 83, 83);
+}
+
+.second-content{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center; 
+    text-align: center;
+    top: 200px;
+    left: 300px;
+}
+
+
+
+
+
+.column a{
+    text-decoration: none;
+    color: blue;
+    text-align:justify;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    height: 35%;
+    padding:10px;
+    text-align: center;
+    justify-content: center;
+    font-size: small;
+    text-decoration: none;
+    
+}
+
+
+.row {
+    margin:5px;
+    justify-content:center ;
+    text-align: center;
+    position: relative;
+    left: 400px;
+    top:50px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    justify-content: center;
+}
+
+
+.footer-container ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    
+}
+
+
+
+
+
+
+.footer{
+    margin-top: 15px;
+    width: 100%;
+    background: rgb(236, 233, 233);
+    color-scheme: #efef;
+    display:flex;
+    justify-content: space-around;;
+    font-family:'poopins',sans-serif;
+}
+
+.footer div{
+text-align: center;
+
+}
+
+.col-2{
+flex: grow 2;;
+}
+
+.footer div h4{
+    font-weight: 300;
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+}
+
+.main-footer a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin: 10px;
+}
+.main-footer div{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.main-footer{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.main-footer h4{
+    margin-top: 20px;
+}
+.pp{
+display: flex;
+font-size:xx-small;
+margin-bottom: -16px;
+}
+
+.container-footer{
+    display: subgrid;
+    margin-top: 700px;
+}
+
+.cp p{
+    font-size: smaller;
+    margin:1px;
+}
+
+nav.sticky{
+    position: sticky;
+    top: 0;
+    left: 0;
+}        
